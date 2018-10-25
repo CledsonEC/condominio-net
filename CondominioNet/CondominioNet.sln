@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioNet.Application", "CondominioNet.Application\CondominioNet.Application.csproj", "{E966EB2A-70D1-4950-95AD-B28E1BB3542A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioNet.Domain", "CondominioNet.Domain\CondominioNet.Domain.csproj", "{DA4C0862-A099-4D49-93D6-0A761D6204BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioNet.Infra.CrossCutting.IoC", "CondominioNet.Infra.CrossCutting.IoC\CondominioNet.Infra.CrossCutting.IoC.csproj", "{9764B0F4-2669-424B-AC3A-AF594BFB3672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioNet.Infra.Data", "CondominioNet.Infra.Data\CondominioNet.Infra.Data.csproj", "{EFBC86E9-9103-4B9D-9CE2-CE7CBD1611D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioNet.Api", "CondominioNet.Api\CondominioNet.Api.csproj", "{F112FF15-6010-42F8-9806-6C89006A99AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E966EB2A-70D1-4950-95AD-B28E1BB3542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E966EB2A-70D1-4950-95AD-B28E1BB3542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E966EB2A-70D1-4950-95AD-B28E1BB3542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E966EB2A-70D1-4950-95AD-B28E1BB3542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4C0862-A099-4D49-93D6-0A761D6204BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4C0862-A099-4D49-93D6-0A761D6204BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4C0862-A099-4D49-93D6-0A761D6204BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4C0862-A099-4D49-93D6-0A761D6204BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9764B0F4-2669-424B-AC3A-AF594BFB3672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9764B0F4-2669-424B-AC3A-AF594BFB3672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9764B0F4-2669-424B-AC3A-AF594BFB3672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9764B0F4-2669-424B-AC3A-AF594BFB3672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBC86E9-9103-4B9D-9CE2-CE7CBD1611D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBC86E9-9103-4B9D-9CE2-CE7CBD1611D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBC86E9-9103-4B9D-9CE2-CE7CBD1611D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBC86E9-9103-4B9D-9CE2-CE7CBD1611D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F112FF15-6010-42F8-9806-6C89006A99AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F112FF15-6010-42F8-9806-6C89006A99AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F112FF15-6010-42F8-9806-6C89006A99AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F112FF15-6010-42F8-9806-6C89006A99AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97878267-1530-4C0F-A0E5-D9A0102F2352}
+	EndGlobalSection
+EndGlobal

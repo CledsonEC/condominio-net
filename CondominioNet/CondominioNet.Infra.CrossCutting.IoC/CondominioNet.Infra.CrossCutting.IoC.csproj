@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CondominioNet.Application\CondominioNet.Application.csproj" />
+    <ProjectReference Include="..\CondominioNet.Domain\CondominioNet.Domain.csproj" />
+    <ProjectReference Include="..\CondominioNet.Infra.Data\CondominioNet.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
